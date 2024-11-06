@@ -1,0 +1,16 @@
+{
+    "books": [
+        {
+            "img": "./img/MeandEarlandtheDyingGirlCover.png",
+            "alt": "Me and Earl and the Dying Girl",
+            "title": "Me and Earl and the Dying Girl",
+            "author": "by Jesse Andrews"
+        },
+        {
+            "img": "./img/MeandEarlandtheDyingGirlCover.png",
+            "alt": "Tricks",
+            "title": "Tricks",
+            "author": "by Ellen Hopkins"
+        }
+    ]
+}

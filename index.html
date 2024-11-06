@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/dark-library.png">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Dark Library</title>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo-container">
+            <img src="img/dark-library.png" alt="Dark Library Logo" class="logo-image">
+            <h1 class="logo">Dark Library</h1>
+        </div>
+        <div class="search-container">
+            <input type="text" class="search-bar" placeholder="Search books...">
+        </div>
+    </header>
+    
+    <main class="library">
+        <section class="book-cards">
+            
+        </section>
+    </main>
+
+    <script>
+        if(window.location.pathname === '/admin') {
+            window.location.href = '/admin'
+        }
+    </script>
+    <script src="js/script.js"></script>
+</body>
+</html>
