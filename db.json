@@ -4,12 +4,14 @@
             "img": "./img/MeandEarlandtheDyingGirlCover.png",
             "alt": "Me and Earl and the Dying Girl",
             "title": "Me and Earl and the Dying Girl",
+            "description": "Hello guys",
             "author": "by Jesse Andrews"
         },
         {
-            "img": "./img/MeandEarlandtheDyingGirlCover.png",
+            "img": "./img/Tricks.png",
             "alt": "Tricks",
             "title": "Tricks",
+            "description": "Hello gaaaa",
             "author": "by Ellen Hopkins"
         }
     ]

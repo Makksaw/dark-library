@@ -1,4 +1,30 @@
-const searchbar = document.querySelector('.search-bar')
+const searchbar = document.querySelector('.search-bar'),
+      modal = document.querySelector('.modal'),
+      closeModal = document.querySelector('.close-btn'),
+      bookCards = document.querySelectorAll('.book-card'),
+      modalImg = document.querySelector('.modal-image'),
+      modalTitle = document.querySelector('.modal-title'),
+      modalAuthor= document.querySelector('.modal-author'),
+      modalDescr = document.querySelector('.modal-description')
+
+function openModal(book) {
+    modal.style.display = 'flex'
+    modalImg.src = book.img
+    modalImg.alt = book.alt
+    modalTitle.textContent = book.title
+    modalAuthor.textContent = book.author
+    modalDescr.textContent = book.description
+}
+
+closeModal.addEventListener('click', () => {
+    modal.style.display = 'none'
+})
+
+window.addEventListener('click', (e) => {
+    if(e.target === modal) {
+        modal.style.display = 'none'
+    }
+})
 
 async function getCardsFromJSON(url) {
     const res = await fetch(url)
@@ -12,11 +38,12 @@ async function getCardsFromJSON(url) {
 
 function displayCards() {
     class BookCards {
-        constructor(img, alt, title, author, parentSelector) {
+        constructor(img, alt, title, author, description, parentSelector) {
             this.img = img
             this.alt = alt
             this.title = title
             this.author = author
+            this.description = description
             this.parent = document.querySelector(parentSelector)
         }
 
@@ -29,15 +56,23 @@ function displayCards() {
                 <h2 class="book-title">${this.title}</h2>
                 <p class="book-author">${this.author}</p>
             `
-
+            
+            bookCard.addEventListener('click', () => openModal({
+                img: this.img, 
+                alt: this.alt, 
+                title: this.title, 
+                author: this.author, 
+                description: this.description
+            }))
+            
             this.parent.append(bookCard)
         }
     }
 
     getCardsFromJSON('http://localhost:3000/books')
         .then(data => {
-            data.forEach(({img, alt, title, author}) => {
-                new BookCards(img, alt, title, author, '.book-cards').render()
+            data.forEach(({img, alt, title, author, description}) => {
+                new BookCards(img, alt, title, author, description, '.book-cards').render()
             })
 
             filterBooks()
@@ -47,8 +82,6 @@ function displayCards() {
 displayCards()
 
 function filterBooks() {
-    const bookCards = document.querySelectorAll('.book-card')
-
     searchbar.addEventListener('input', () => {
         const searchValue = searchbar.value.toLowerCase()
 
