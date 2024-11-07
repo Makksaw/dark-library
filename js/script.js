@@ -1,11 +1,11 @@
 const searchbar = document.querySelector('.search-bar'),
       modal = document.querySelector('.modal'),
       closeModal = document.querySelector('.close-btn'),
-      bookCards = document.querySelectorAll('.book-card'),
       modalImg = document.querySelector('.modal-image'),
       modalTitle = document.querySelector('.modal-title'),
       modalAuthor= document.querySelector('.modal-author'),
-      modalDescr = document.querySelector('.modal-description')
+      modalDescr = document.querySelector('.modal-description'),
+      bookCards = document.querySelectorAll('.book-card')
 
 function openModal(book) {
     modal.style.display = 'flex'
@@ -82,6 +82,8 @@ function displayCards() {
 displayCards()
 
 function filterBooks() {
+    const bookCards = document.querySelectorAll('.book-card')
+    
     searchbar.addEventListener('input', () => {
         const searchValue = searchbar.value.toLowerCase()
 
