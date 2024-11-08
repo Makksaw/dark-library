@@ -1,0 +1,6 @@
+{
+    "public": "./public",
+    "rewrites": [
+        { "source": "/api/books", "destination": "/api/books.js" }
+    ]
+ }
