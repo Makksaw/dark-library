@@ -1,6 +1,10 @@
 {
-    "public": "./public",
     "rewrites": [
         { "source": "/api/books", "destination": "/api/books.js" }
+    ],
+    "routes": [
+        { "src": "/library", "dest": "/library.html" },
+        { "src": "/privacy", "dest": "/privacy.html" },
+        { "src": "/", "dest": "/index.html" }
     ]
- }
+}

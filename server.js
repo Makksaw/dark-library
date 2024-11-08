@@ -7,7 +7,7 @@ const port = 3000
 app.use(express.static(path.join(__dirname, 'public')))
 
 app.get('/api/books', (req, res) => {
-    fs.readFile(path.join(__dirname, 'public', 'db.json'), 'utf-8', (err, data) => {
+    fs.readFile(path.join(__dirname, 'db.json'), 'utf-8', (err, data) => {
         if(err) {
             return res.status(500).json({error: 'Could not read database file'})
         }
