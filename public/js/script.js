@@ -69,7 +69,15 @@ function displayCards() {
         }
     }
 
-    getCardsFromJSON('http://localhost:3000/books')
+    let domen = ''
+
+    if(window.location.port) {
+        domen = `${window.location.protocol}//${window.location.hostname}:${window.location.port}/api/books`
+    } else {
+        domen = `${window.location.protocol}//${window.location.hostname}/api/books`
+    }
+
+    getCardsFromJSON(domen)
         .then(data => {
             data.forEach(({img, alt, title, author, description}) => {
                 new BookCards(img, alt, title, author, description, '.book-cards').render()
