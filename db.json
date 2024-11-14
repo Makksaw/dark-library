@@ -5,14 +5,50 @@
             "alt": "Me and Earl and the Dying Girl",
             "title": "Me and Earl and the Dying Girl",
             "description": "Me and Earl and the Dying Girl is a heartwarming and humorous novel by Jesse Andrews. It tells the story of Greg, a high school senior who befriends Rachel, a classmate with leukemia, and chronicles their journey of friendship and self-discovery.",
-            "author": "by Jesse Andrews"
+            "author": "by Jesse Andrews",
+            "pages": 992,
+            "year": 2015,
+            "genre": "Comedy/Romance"
         },
         {
             "img": "./img/Tricks.png",
             "alt": "Tricks",
             "title": "Tricks",
             "description": "Five troubled teenagers fall into prostitution as they search for freedom, safety, community, family, and love in this #1 New York Times bestselling novel from Ellen Hopkins. When all choice is taken from you, life becomes a game of survival. Five teenagers from different parts of the country.",
-            "author": "by Ellen Hopkins"
+            "author": "by Ellen Hopkins",
+            "pages": 656,
+            "year": 2017,
+            "genre": "Young adult verse"
+        },
+        {
+            "img": "./img/TheKindlyOnes.png",
+            "alt": "The Kindly Ones",
+            "title": "The Kindly Ones",
+            "description": "The book world has been taken by storm with Jonathan Littells brilliant novel written in and currently available only in French. A view of the the Nazi attrocities told through an SS officer living in France provides for a chilling and engrossing reading experience. The book is already a monumental bestseller in France and has publishers worldwide scrambling for the rights.",
+            "author": "by Jonathan Littel",
+            "pages": 992,
+            "year": 2009,
+            "genre": "Historical fiction novel"
+        },
+        {
+            "img": "./img/MeinKampf.png",
+            "alt": "Mein Kampf",
+            "title": "Mein Kampf",
+            "description": "“In the pages of Mein Kampf Hitler presented the world with his dark vision for the future. Years would pass before he attained the power to realize that vision, but Mein Kampf’s existence denies the free world the excuse of ignorance. We dismissed him as a madman and we ignored his wretched book; the result was a tragedy of unprecedented proportions. This is yet another lesson to take from Mein Kampf: the lesson of vigilance and responsibility, of not closing our eyes to the evil around us.”—From the introduction by Abraham Foxman.",
+            "author": "by Adolf Hitler",
+            "pages": 704,
+            "year": 1925,
+            "genre": "Autobiography"
+        },
+        {
+            "img": "./img/1984.png",
+            "alt": "1984",
+            "title": "1984",
+            "description": "Written 40 years ago, 1984 was George Orwell’s chilling prophecy about the future. And while 1984 has come and gone, his dystopian vision of a government that will do anything to control the narrative is timelier than ever...",
+            "author": "by Adolf Hitler",
+            "pages": 328,
+            "year": 1984,
+            "genre": "Novel"
         }
     ]
 }
