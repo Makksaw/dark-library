@@ -1,7 +1,7 @@
 {
     "books": [
         {
-            "img": "./img/ThePortageToSanCristobalOfAH.png",
+            "img": "/images/ThePortageToSanCristobalOfAH.png",
             "alt": "The Portage to San Cristobal of A.H.",
             "title": "The Portage to San Cristobal of A.H.",
             "description": "Imagine, thirty years after the end of World War II, Israeli Nazi-hunters, some of whom lost relatives in the gas chambers of Nazi Germany, find a silent old man deep in the Amazon jungle. He is Adolph Hitler. The narrative that follows is a profound and disturbing exploration of the nature of guilt, vengeance, language, and the power of evil—each undiminished over time. George Steiner's stunning novel, now with a new afterword, will continue to provoke our thinking about Nazi Germany's unforgettable past. ",
@@ -11,7 +11,7 @@
             "genre": "Novel"
         },
         {
-            "img": "./img/Tricks.png",
+            "img": "/images/Tricks.png",
             "alt": "Tricks",
             "title": "Tricks",
             "description": "Five troubled teenagers fall into prostitution as they search for freedom, safety, community, family, and love in this #1 New York Times bestselling novel from Ellen Hopkins. When all choice is taken from you, life becomes a game of survival. Five teenagers from different parts of the country.",
@@ -21,7 +21,7 @@
             "genre": "Young adult verse"
         },
         {
-            "img": "./img/TheKindlyOnes.png",
+            "img": "/images/TheKindlyOnes.png",
             "alt": "The Kindly Ones",
             "title": "The Kindly Ones",
             "description": "The book world has been taken by storm with Jonathan Littells brilliant novel written in and currently available only in French. A view of the the Nazi attrocities told through an SS officer living in France provides for a chilling and engrossing reading experience. The book is already a monumental bestseller in France and has publishers worldwide scrambling for the rights.",
@@ -31,7 +31,7 @@
             "genre": "Historical fiction novel"
         },
         {
-            "img": "./img/MeinKampf.png",
+            "img": "/images/MeinKampf.png",
             "alt": "Mein Kampf",
             "title": "Mein Kampf",
             "description": "“In the pages of Mein Kampf Hitler presented the world with his dark vision for the future. Years would pass before he attained the power to realize that vision, but Mein Kampf’s existence denies the free world the excuse of ignorance. We dismissed him as a madman and we ignored his wretched book; the result was a tragedy of unprecedented proportions. This is yet another lesson to take from Mein Kampf: the lesson of vigilance and responsibility, of not closing our eyes to the evil around us.”—From the introduction by Abraham Foxman.",
@@ -41,7 +41,7 @@
             "genre": "Autobiography"
         },
         {
-            "img": "./img/1984.png",
+            "img": "/images/1984.png",
             "alt": "1984",
             "title": "1984",
             "description": "Written 40 years ago, 1984 was George Orwell’s chilling prophecy about the future. And while 1984 has come and gone, his dystopian vision of a government that will do anything to control the narrative is timelier than ever...",
