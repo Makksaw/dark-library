@@ -1,14 +1,14 @@
 {
     "books": [
         {
-            "img": "./img/MeandEarlandtheDyingGirlCover.png",
-            "alt": "Me and Earl and the Dying Girl",
-            "title": "Me and Earl and the Dying Girl",
-            "description": "Me and Earl and the Dying Girl is a heartwarming and humorous novel by Jesse Andrews. It tells the story of Greg, a high school senior who befriends Rachel, a classmate with leukemia, and chronicles their journey of friendship and self-discovery.",
-            "author": "by Jesse Andrews",
-            "pages": 992,
-            "year": 2015,
-            "genre": "Comedy/Romance"
+            "img": "./img/ThePortageToSanCristobalOfAH.png",
+            "alt": "The Portage to San Cristobal of A.H.",
+            "title": "The Portage to San Cristobal of A.H.",
+            "description": "Imagine, thirty years after the end of World War II, Israeli Nazi-hunters, some of whom lost relatives in the gas chambers of Nazi Germany, find a silent old man deep in the Amazon jungle. He is Adolph Hitler. The narrative that follows is a profound and disturbing exploration of the nature of guilt, vengeance, language, and the power of evil—each undiminished over time. George Steiner's stunning novel, now with a new afterword, will continue to provoke our thinking about Nazi Germany's unforgettable past. ",
+            "author": "by George Steiner",
+            "pages": 176,
+            "year": 1981,
+            "genre": "Novel"
         },
         {
             "img": "./img/Tricks.png",
@@ -45,7 +45,7 @@
             "alt": "1984",
             "title": "1984",
             "description": "Written 40 years ago, 1984 was George Orwell’s chilling prophecy about the future. And while 1984 has come and gone, his dystopian vision of a government that will do anything to control the narrative is timelier than ever...",
-            "author": "by Adolf Hitler",
+            "author": "by George Orwell",
             "pages": 328,
             "year": 1984,
             "genre": "Novel"
