@@ -47,6 +47,14 @@ app.get('/api/books', (req, res) => {
     });
 });
 
+app.all('*', (req, res) => {
+    res.status(404).sendFile(path.resolve('404.html'), (err) => {
+        if (err) {
+            res.status(500).send('Failed to load 404 page.');
+        }
+    });
+});
+
 app.listen(port, () => console.log(`Server is running on port ${port}`));
 
 module.exports = app;
