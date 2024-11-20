@@ -95,15 +95,15 @@ function displayCards() {
         }
     }
 
-    let domen;
+    let domain;
 
     if (window.location.port) {
-        domen = `${window.location.protocol}//${window.location.hostname}:${window.location.port}/api/books`;
+        domain = `${window.location.protocol}//${window.location.hostname}:${window.location.port}/api/books`;
     } else {
-        domen = `${window.location.protocol}//${window.location.hostname}/api/books`;
+        domain = `${window.location.protocol}//${window.location.hostname}/api/books`;
     }
 
-    getCardsFromJSON(domen).then((data) => {
+    getCardsFromJSON(domain).then((data) => {
         data.forEach(
             ({ img, alt, title, author, description, pages, year, genre }) => {
                 new BookCards(
