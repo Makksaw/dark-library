@@ -95,155 +95,35 @@
             .navigation {
                 display: flex;
                 align-items: center;
-                margin-left: auto;
                 gap: 20px;
+                margin-left: auto;
             }
             .navigator {
                 text-decoration: none;
             }
-            .library {
+            .privacy-content {
                 display: flex;
                 justify-content: center;
                 padding: 40px 20px;
             }
-            .book-cards {
-                display: grid;
-                gap: 20px;
-                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            .privacy-text {
                 width: 100%;
                 max-width: 1200px;
-            }
-            .book-card {
+                font-size: 1.2em;
+                line-height: 1.5;
+                color: #e6e6e6;
                 background-color: #292626;
                 padding: 20px;
                 border-radius: 10px;
                 border: 1px solid #660000;
                 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
-                transition: transform 0.4s ease, box-shadow 0.4s ease;
-                color: #e6e6e6;
-                cursor: pointer;
-                position: relative;
-                overflow: hidden;
             }
-            .book-image {
-                width: 100%;
-                height: auto;
-                border-radius: 5px;
+            .privacy-text p {
                 margin-bottom: 15px;
-                transition: transform 0.3s ease;
             }
-            .book-card:hover .book-image {
-                transform: scale(1.05);
-            }
-            .book-title {
-                font-size: 1.5em;
+            .privacy-text h3 {
                 color: #e60000;
-                margin-bottom: 10px;
-                text-shadow: 0 0 5px #e60000, 0 0 10px #e60000;
-            }
-            .book-author {
-                font-size: 1.2em;
-                color: #ff3333;
-                margin-bottom: 10px;
-            }
-            .book-description {
-                color: #b3b3b3;
-                font-style: italic;
-            }
-            .book-card::after {
-                content: '';
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                background: linear-gradient(
-                    45deg,
-                    transparent,
-                    rgba(230, 0, 0, 0.2),
-                    transparent
-                );
-                opacity: 0;
-                transition: opacity 0.4s ease;
-            }
-            .book-card:hover::after {
-                opacity: 0.6;
-            }
-            .modal {
-                display: none;
-                position: fixed;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                background-color: rgba(0, 0, 0, 0.7);
-                z-index: 100;
-                align-items: center;
-                justify-content: center;
-            }
-            .modal-content {
-                background-color: #1a1a1a;
-                padding: 20px;
-                border-radius: 10px;
-                width: 80%;
-                max-width: 900px;
-                display: flex;
-                align-items: center;
-                position: relative;
-                color: #e6e6e6;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
-            }
-            .modal-content img {
-                width: 50%;
-                height: auto;
-                border-radius: 5px;
-                margin-right: 20px;
-            }
-            .modal-title {
-                font-size: 2em;
-                color: #ff0000;
-                text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000;
-                margin-bottom: 10px;
-            }
-            .modal-author {
-                font-size: 1.2em;
-                color: #ff3333;
-                margin-bottom: 10px;
-            }
-            .modal-description.modal-pages.modal-year.modal-genre {
-                font-size: 1em;
-                color: #b3b3b3;
-                font-style: italic;
-            }
-            .close-btn {
-                position: absolute;
-                top: 10px;
-                right: 20px;
-                font-size: 2em;
-                color: #e60000;
-                cursor: pointer;
-                background: transparent;
-                border: none;
-                transition: color 0.3s ease;
-            }
-            .close-btn:hover {
-                color: #ff0000;
-            }
-            .page {
-                display: flex;
-                justify-content: center;
-                flex: 1;
-            }
-            .text-overlay {
-                position: absolute;
-                top: 125%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                font-size: 2em;
-                color: #ff0000;
-                text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
-                text-align: center;
-                z-index: 10;
+                margin-top: 20px;
             }
             .footer {
                 background-color: #1a0000;
@@ -312,10 +192,14 @@
                 .navigation {
                     gap: 10px;
                     padding-top: 10px;
+                    margin: auto;
                 }
                 .navigator img {
                     width: 30px;
                 }
+            }
+            .list {
+                list-style-type: none;
             }
         </style>
         <title>Dark Library - Library</title>
@@ -359,6 +243,89 @@
                 </div>
             </div>
         </header>
+
+        <main class="privacy-content">
+            <div class="container">
+                <section class="privacy-text">
+                    <h2>Privacy Policy</h2>
+                    <p>
+                        This Privacy Policy outlines how we handle your
+                        information and the terms regarding the use of the site.
+                        By accessing or using the site, you agree to comply with
+                        this policy. If you do not agree, please refrain from
+                        using the site.
+                    </p>
+
+                    <h3>Information We Collect</h3>
+                    <p>
+                        Dark Library prioritizes user anonymity. We do not
+                        actively collect personal data unless explicitly
+                        provided.
+                    </p>
+
+                    <h3>How We Use Your Information</h3>
+                    The limited data we collect is used to:
+                    <li class="list">Enhance website performance.</li>
+                    <li class="list">Understand usage trends.</li>
+                    <li class="list">Respond to user inquiries.</li>
+                    We do not share, sell, or distribute any collected data with
+                    third parties unless legally compelled to do so.
+                    <h3>Confidentiality of Accessed Information</h3>
+                    <p>
+                        Dark Library provides access to information about
+                        controversial or illegal books purely for research,
+                        historical, or informational purposes. Users must adhere
+                        to the following:
+
+                        <li class="list">
+                            Confidentiality: Any information accessed on this
+                            site is for personal reference only and must not be
+                            shared, distributed, or published.
+                        </li>
+
+                        <li class="list">
+                            Prohibition of Misuse: Users must not use the
+                            information accessed on the site to engage in
+                            illegal activities, promote unlawful behavior, or
+                            violate intellectual property rights.
+                        </li>
+
+                        Dark Library is not liable for misuse of information
+                        obtained from the site.
+                    </p>
+                    <h3>Your Responsibilities</h3>
+                    <p>
+                        By using Dark Library, you agree to:
+
+                        <li class="list">
+                            Respect the privacy of others using the platform.
+                        </li>
+                        <li class="list">
+                            Use the site ethically and lawfully.
+                        </li>
+                        <li class="list">
+                            Acknowledge that any content accessed is for
+                            educational and research purposes only.
+                        </li>
+                    </p>
+
+                    <h3>Security</h3>
+                    <p>
+                        We take reasonable measures to protect the site and any
+                        user data against unauthorized access or breaches.
+                        However, no method of data transmission or storage is
+                        entirely secure. Use the site at your own risk.
+                    </p>
+
+                    <h3>Updates to This Policy</h3>
+                    <p>
+                        Dark Library reserves the right to update this Privacy
+                        Policy as needed. Continued use of the site after
+                        updates constitutes acceptance of the revised terms.
+                    </p>
+                </section>
+            </div>
+        </main>
 
         <footer class="footer">
             <div class="footer-container">
