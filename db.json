@@ -44,11 +44,61 @@
             "img": "/images/1984.png",
             "alt": "1984",
             "title": "1984",
-            "description": "Written 40 years ago, 1984 was George Orwell’s chilling prophecy about the future. And while 1984 has come and gone, his dystopian vision of a government that will do anything to control the narrative is timelier than ever...",
+            "description": "Written 75 years ago, 1984 was George Orwell’s chilling prophecy about the future. And while 1984 has come and gone, his dystopian vision of a government that will do anything to control the narrative is timelier than ever...",
             "author": "by George Orwell",
             "pages": 328,
             "year": 1984,
             "genre": "Novel"
+        },
+        {
+            "img": "/images/Fahrenheit451.png",
+            "alt": "Fahrenheit 451",
+            "title": "Fahrenheit 451",
+            "description": "Nearly seventy years after its original publication, Ray Bradbury’s internationally acclaimed novel Fahrenheit 451 stands as a classic of world literature set in a bleak, dystopian future. Today its message has grown more relevant than ever before.",
+            "author": "by Ray Bradbury",
+            "pages": 176,
+            "year": 1953,
+            "genre": "Dystopian novel"
+        },
+        {
+            "img": "/images/We.png",
+            "alt": "We",
+            "title": "We",
+            "description": "The exhilarating dystopian novel that inspired George Orwell's 1984 and foreshadowed the worst excesses of Soviet Russia, featuring a foreword by the National Book Award-winning New Yorker journalist Masha Gessen.",
+            "author": "by Yevgeny Zamyatin",
+            "pages": 221,
+            "year": 1993,
+            "genre": "Dystopian novel"
+        },
+        {
+            "img": "/images/Bloodlands.png",
+            "alt": "Bloodlands",
+            "title": "Bloodlands",
+            "description": "From the author of the international bestseller On Tyranny, the definitive history of Hitler's and Stalin's politics of mass killing, explaining why Ukraine has been at the center of Western history for the last century.",
+            "author": "by Timothy Snyder",
+            "pages": 560,
+            "year": 2016,
+            "genre": "Transnational history"
+        },
+        {
+            "img": "/images/DarknessAtNoon.png",
+            "alt": "Darkness at Noon",
+            "title": "Darkness at Noon",
+            "description": "The newly discovered lost text of Arthur Koestler’s modern masterpiece, Darkness at Noon—the haunting portrait of a revolutionary, imprisoned and tortured under totalitarian rule—is now restored and in a completely new translation.",
+            "author": "by Arthur Koestler",
+            "pages": 272,
+            "year": 1940,
+            "genre": "Novel"
+        },
+        {
+            "img": "/images/TheRiseAndFallOfTheThirdReich.png",
+            "alt": "The Rise and Fall of the Third Reich",
+            "title": "The Rise and Fall of the Third Reich",
+            "description": "“One of the most important works of history of our time.” —The New York Times. The fiftieth anniversary edition of the National Book Award–winning bestseller that is the definitive study of Adolf Hitler, the rise of Nazi Germany, the Holocaust, and World War II. This special edition features a new introduction by Ron Rosenbaum, author of Explaining Hitler and How the End Begins.",
+            "author": "by William L. Shirer",
+            "pages": 1874,
+            "year": 2011,
+            "genre": "Non-fiction"
         }
     ]
 }
