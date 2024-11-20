@@ -10,6 +10,11 @@ const searchbar = document.querySelector('.search-bar'),
     modalGenre = document.querySelector('.modal-genre');
 bookCards = document.querySelectorAll('.book-card');
 
+function getInfoByURL(route) {
+    const port = window.location.port ? `:${window.location.port}` : '';
+    return `${window.location.protocol}//${window.location.hostname}${port}/api/${route}`;
+}
+
 function openModal(book) {
     modal.style.display = 'flex';
     modalImg.src = book.img;
@@ -95,15 +100,7 @@ function displayCards() {
         }
     }
 
-    let domain;
-
-    if (window.location.port) {
-        domain = `${window.location.protocol}//${window.location.hostname}:${window.location.port}/api/books`;
-    } else {
-        domain = `${window.location.protocol}//${window.location.hostname}/api/books`;
-    }
-
-    getCardsFromJSON(domain).then((data) => {
+    getCardsFromJSON(getInfoByURL('books')).then((data) => {
         data.forEach(
             ({ img, alt, title, author, description, pages, year, genre }) => {
                 new BookCards(
